@@ -117,8 +117,8 @@
                             </span>
                             <span>
                                 Assalomu alekum
-                                <a href="https://new-laravel-12-main-t1ddrw.laravel.cloud" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
-                                    <span>Lets goo</span>
+                                <a href="{{ route('contacts.index') }}" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
+                                    <span>Contacts</span>
                                     <svg
                                         width="10"
                                         height="11"
