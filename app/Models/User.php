@@ -18,10 +18,17 @@ class User extends Authenticatable
      * @var list<string>
      */
     protected $fillable = [
-        'name',
-        'email',
+        'full_name',
+        'phone_or_email',
         'password',
+        'is_active', // default 0
+        'status',
     ];
+
+    public function business_profiles()
+    {
+        return $this->hasMany(BusinessProfile::class);
+    }
 
     /**
      * The attributes that should be hidden for serialization.

@@ -117,7 +117,7 @@
                             </span>
                             <span>
                                 Assalomu alekum
-                                <a href="{{ route('contacts.index') }}" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
+                                <a href="{{ route('hotels.index') }}" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
                                     <span>Contacts</span>
                                     <svg
                                         width="10"
